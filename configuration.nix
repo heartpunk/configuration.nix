@@ -7,6 +7,8 @@
   services.xserver.videoDrivers = [ "nvidia" ];
   hardware.opengl.enable = true;
   environment.noXlibs = false;
+  services.xserver.desktopManager.gnome.enable = true;
+  networking.wireless.enable = false;
 
 
 }
